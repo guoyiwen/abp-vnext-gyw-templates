@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace MyCompanyName.MyProjectName.HttpApi.Client.ConsoleTestApp;
+namespace MyCompanyName.MyProjectName;
 
 class Program
 {

@@ -1,9 +1,9 @@
 ﻿using Localization.Resources.AbpUi;
-using MyCompanyName.MyProjectName.Localization;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Microsoft.Extensions.DependencyInjection;
+using MyCompanyName.MyProjectName.Localization;
 
 namespace MyCompanyName.MyProjectName;
 

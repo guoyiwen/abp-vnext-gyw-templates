@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MyCompanyName.MyProjectName;
 using Volo.Abp.Data;
 using Volo.Abp.EntityFrameworkCore;
 

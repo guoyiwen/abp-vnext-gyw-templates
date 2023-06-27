@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp;
 
-namespace MyCompanyName.MyProjectName.HttpApi.Client.ConsoleTestApp;
+namespace MyCompanyName.MyProjectName;
 
 public class ConsoleTestAppHostedService : IHostedService
 {
@@ -20,8 +20,8 @@ public class ConsoleTestAppHostedService : IHostedService
     {
         using (var application = await AbpApplicationFactory.CreateAsync<MyProjectNameConsoleApiClientModule>(options =>
         {
-           options.Services.ReplaceConfiguration(_configuration);
-           options.UseAutofac();
+            options.Services.ReplaceConfiguration(_configuration);
+            options.UseAutofac();
         }))
         {
             await application.InitializeAsync();

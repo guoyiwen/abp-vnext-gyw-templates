@@ -5,7 +5,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>net7.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
-		<RootNamespace>MyCompanyName.MyProjectName</RootNamespace>
+		<RootNamespace />
 	</PropertyGroup>
 
 	<ItemGroup>
