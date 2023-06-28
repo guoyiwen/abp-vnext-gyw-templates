@@ -10,6 +10,10 @@
 
 	<ItemGroup>
 		<PackageReference Include="Volo.Abp.Ddd.Domain" Version="$(AbpVersion)" />
+		
+	</ItemGroup>
+
+	<ItemGroup>
 		<ProjectReference Include="..\MyCompanyName.MyProjectName.Domain.Shared\MyCompanyName.MyProjectName.Domain.Shared.csproj" />
 	</ItemGroup>
 
